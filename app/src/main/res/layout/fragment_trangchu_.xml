@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/backgr"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.app_doc_truyen.Fragment.Trangchu_Fragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?attr/backgr"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="?attr/backgr"
+            android:orientation="horizontal">
+            />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/edtTimKiem"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="307dp"
+                android:layout_height="wrap_content"
+                android:hint="SEARCH"
+                app:boxStrokeColor="#989898">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="307dp"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+            </com.google.android.material.textfield.TextInputLayout>.
+            <ImageView
+                android:layout_margin="8dp"
+                android:id="@+id/btnTimKiem"
+                android:layout_width="50dp"
+                android:src="@drawable/baseline_search_24"
+                android:backgroundTint="@color/black"
+                android:layout_height="50dp">
+
+            </ImageView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/txtNam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/allerta"
+                android:text="BXH "
+                android:textColor="?attr/text"
+                android:textSize="20sp"
+                />
+
+            <ViewFlipper
+                android:id="@+id/viewlipper"
+                android:layout_margin="10dp"
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:background="@drawable/boder_1"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/allerta"
+                android:text="Nổi Bật"
+                android:textColor="?attr/text"
+                android:textSize="20sp"
+                /><LinearLayout
+            android:padding="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <androidx.cardview.widget.CardView
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/boder_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" >
+                <LinearLayout
+                    android:background="@drawable/boder_6"
+                    android:padding="2dp"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:padding="5dp"
+                        android:layout_gravity="center"
+                        android:id="@+id/imgBaiViet"
+                        android:layout_marginBottom="20dp"
+                        android:layout_width="140dp"
+                        android:layout_height="120dp"
+                        android:src="@drawable/anh12" />
+                    <LinearLayout
+                        android:layout_marginTop="-22dp"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/allerta"
+                            android:text="Tứ Kỵ Sĩ Khải Huyền"
+                            android:textAlignment="textStart"
+                            android:textColor="#000000"
+                            android:textSize="12sp"
+                            android:textStyle="bold">
+                        </TextView>
+
+                        <TextView
+                            android:layout_marginTop="11dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="4.8"
+                            android:textSize="12sp">
+                        </TextView>
+                        <ImageView
+                            android:layout_marginTop="11dp"
+                            android:src="@android:drawable/btn_star_big_on"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp">
+                        </ImageView>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_marginStart="60dp"
+                android:background="@drawable/boder_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" >
+                <LinearLayout
+                    android:background="@drawable/boder_6"
+                    android:padding="5dp"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:padding="2dp"
+                        android:layout_gravity="center"
+                        android:id="@+id/imgBaiViet2"
+                        android:layout_marginBottom="20dp"
+                        android:layout_width="140dp"
+                        android:layout_height="120dp"
+                        android:src="@drawable/anh1" />
+                    <LinearLayout
+                        android:layout_marginTop="-22dp"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/allerta"
+                            android:text="SPY X Family"
+                            android:textAlignment="textStart"
+                            android:textColor="#000000"
+                            android:textSize="12sp"
+                            android:textStyle="bold">
+                        </TextView>
+
+                        <TextView
+                            android:layout_marginTop="11dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="4.8"
+                            android:textSize="12sp">
+                        </TextView>
+                        <ImageView
+                            android:layout_marginTop="11dp"
+                            android:src="@android:drawable/btn_star_big_on"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp">
+                        </ImageView>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerView_BaiViet"
+                android:padding="3dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/boder_1"
+                android:layout_alignParentTop="true"
+                >
+            </androidx.recyclerview.widget.RecyclerView>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

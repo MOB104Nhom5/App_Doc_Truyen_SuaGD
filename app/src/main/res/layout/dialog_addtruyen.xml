@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thêm truyện"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        />
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/img_commic"
+        android:background="@drawable/boder_1"
+        android:src="@drawable/logo"
+        android:layout_width="150dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="150dp">
+
+    </ImageView>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tentruyen_addtruyen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tên truyện "
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tacgia_addtruyen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tác giả  "
+            />
+    </com.google.android.material.textfield.TextInputLayout><com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/theloai_addtruyen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="thể loại "
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+    >
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/mota_addtruyen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="mô tả "
+        android:inputType="textMultiLine"
+        />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bnt_add_truyen"
+        android:text="add truyện "
+        />
+</androidx.appcompat.widget.LinearLayoutCompat>

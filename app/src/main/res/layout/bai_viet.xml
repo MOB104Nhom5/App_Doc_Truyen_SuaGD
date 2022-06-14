@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_weight="1"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/bober_3"
+            android:orientation="horizontal"
+            tools:ignore="MissingConstraints">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/baseline_chevron_left_24"></ImageView>
+
+            <TextView
+                android:id="@+id/txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="140dp"
+                android:fontFamily="@font/alatsi"
+                android:text="Theo Dõi"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="24sp"></TextView>
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/baseline_more_horiz_24"></ImageView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LLtren"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imgAnhbaiviet"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:src="@drawable/anh1"></ImageView>
+
+            <TextView
+                android:id="@+id/txtTDbaiviet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/alatsi"
+                android:text="Spy X Family"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="24sp"></TextView>
+
+            <ScrollView
+                android:id="@+id/ScrollView01"
+                android:layout_width="match_parent"
+                android:layout_height="350dp">
+             <LinearLayout
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content">
+                 <TextView
+                     android:id="@+id/txtNDbaiviet"
+                     android:layout_width="fill_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_gravity="center"
+                     android:layout_margin="10dp"
+                     android:fontFamily="@font/alatsi"
+                     android:paddingTop="20dp"
+                     android:scrollbars="vertical"
+                     android:text="
+                    Tóm tắt :Gia đình Forgers quyết định đến công viên vào ngày nghỉ, tình cờ trở thành người mẫu vẽ tranh cho một họa sĩ siêu nổi tiếng. Yor lo sợ việc mặt mình được cả thế giới chiêm ngưỡng sẽ ảnh hưởng đến công việc sát thủ, liên tục tạo ra nhiều biểu cảm và hành động kỳ quái trước sự khó hiểu của Loid...
+   Ngoài ra, Anya lên kế hoạch cho chiến lược Người anh em thiện lành với Damian trong Lớp học thiên nhiên của Anya.
+   Cuộc gặp gỡ của Frankie và cô gái mù.
+   Yuri đưa Anya đến cơ sở trải nghiệm công việc.
+   Tổng cộng 4 câu chuyện ngắn!
+   asdasdasdasd
+   asda
+   sdadadad
+   asdada
+   dadada
+   asdada
+   asdasdasd
+   asdadad
+   adadad
+   adasdasd
+   adad
+   adasd
+   adada
+   adad
+   adasda
+   adasda
+   asdada
+   adasdasd
+   adasda
+   adasdad
+   adada
+   adadad
+   adad
+   adadasd
+   adadad
+   adadda
+   dadadad
+   adadadad
+   adadqweq
+   eqeqweqwe
+   qeqeqeqewqe
+   qweqweqeq
+   qeqeqeqwe
+   qeqeeqweqwe
+   qeqweeqe
+   qweqweqewqe
+  asdasdad
+   asdasdada
+   dasdasdasd
+   asdadads
+   111111111111111111
+   111111111111
+"
+                     android:textAlignment="center"
+                     android:textColor="#000000"
+                     android:textSize="16sp"></TextView>
+             </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:labelFor="@+id/LLtren"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/boder_1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+
+                android:layout_gravity="bottom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/txtLike"
+                    android:layout_width="40dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="15dp"
+                    android:text="100"
+                    android:textAlignment="center"
+                    android:textSize="16sp"></TextView>
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/baseline_like_up_24"></ImageView>
+
+                <TextView
+                    android:id="@+id/txtXem"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp"
+                    android:text="300"
+                    android:textAlignment="center"></TextView>
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/baseline_remove_red_eye_24"></ImageView>
+
+                <TextView
+                    android:id="@+id/txtBinhLuan"
+                    android:layout_width="40dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp"
+                    android:text="200"
+                    android:textAlignment="center"></TextView>
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/baseline_chat_24"></ImageView>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</FrameLayout>
